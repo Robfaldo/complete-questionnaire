@@ -1,0 +1,15 @@
+
+{
+    "name": "Complete questionnaire",
+    "version": "1.0",
+    "description": "Complete the questionnaire with the click of a button!",
+    "permissions": ["storage", "declarativeContent"],
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+}
